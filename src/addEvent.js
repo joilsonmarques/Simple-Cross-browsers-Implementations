@@ -9,6 +9,8 @@
  * Use: addEvent("event name", elem, func);
  */
 
+/*! @source https://github.com/joilsonmarques/Simple-Cross-browsers-Implementations/blob/master/src/addEvent.js*/
+
 function addEvent(evnt, elem, func) {
    if (elem.addEventListener)  // W3C DOM
       elem.addEventListener(evnt,func,false);
